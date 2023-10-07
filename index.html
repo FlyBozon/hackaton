@@ -2,26 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>findProject</title>
+    <title>HBO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<!-- First Grid: Logo & About -->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          One of three columns
+<div class="header-logo">
+    <img src="assets/logo.png" alt="Logo" width="250">
+</div>
+<h1 class="question">Who are you?</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm grid-container">
+            <div class="grid-creator">
+                <div class="rectangle blue-border"> <!-- Добавлен класс blue-border -->
+                    <div class="icon">Project creator</div>
+                    <div class="text">Person, who is running a project and looking for new team members</div>
+                </div>
+            </div>
+            <div class="grid-collaborator">
+                <div class="rectangle green-border"> <!-- Добавлен класс green-border -->
+                    <div class="icon">Contributor</div>
+                    <div class="text">Person, who is looking for profitable proposition from project creators</div>
+                </div>
+            </div>
+            <div class="grid-viewer">
+                <div class="rectangle black-border"> <!-- Добавлен класс black-border -->
+                    <div class="icon">Viewer</div>
+                    <div class="text">Person, who is visiting website as a guest
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-      </div>
     </div>
+</div>
 </body>
 </html>
