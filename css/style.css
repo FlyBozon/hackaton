@@ -1,0 +1,56 @@
+/* Убрать отступы и маржи по умолчанию для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Установить ширину для всех элементов, чтобы они занимали 33.33% ширины родительского контейнера */
+.w3-half {
+    width: 33.33%;
+    float: left;
+}
+
+/* Убрать отступы внутри дивов */
+.w3-container {
+    padding: 0;
+}
+
+/* Установить высоту для всех дивов */
+.w3-row .w3-container {
+    height: 700px;
+}
+
+/* Установить стили для первого дива (черного) */
+.w3-row .w3-half:nth-child(1) {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Установить стили для второго дива (серого) */
+.w3-row .w3-half:nth-child(2) {
+    background-color: #607d8b;
+    color: #fff;
+    text-align: center;
+}
+
+/* Установить стили для третьего дива (черного) */
+.w3-row .w3-half:nth-child(3) {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Стили для кнопок внутри дивов */
+.w3-button {
+    width: 100%;
+    margin: 0;
+}
+
+/* Стили для футера */
+.w3-footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+}
