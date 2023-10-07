@@ -1,47 +1,56 @@
 /* Стили для body */
 body {
-    background-color: #0f0f0f;
+    background-color: #2b2b2b;
     color: #fff;
     text-align: center;
     padding: 20px;
+    font-family: Arial, sans-serif; /* Установка шрифта */
 }
 
 /* Стили для заголовка "Who are you?" */
 .question {
-    font-size: 46px;
+    font-size: 45px;
     color: white;
-}
+    margin-top: 13%;
 
+}
+.header-logo {
+    float: left;
+}
+.log_in{
+    margin-top: 4%;
+    float: right;
+    font-weight: normal;
+    font-family: Consolas;
+}
 /* Стили для сетки с классами "grid-container" и "grid-creator", "grid-collaborator", "grid-viewer" */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Гибкие колонки */
     gap: 20px;
-    margin-top: 50px;
-    margin-left: 20px; /* Добавляем отступ слева */
-    margin-right: 20px; /* Добавляем отступ справа */
+    margin-top: 5%;
+    padding: 20px;
+    box-sizing: border-box; /* Учтем padding в ширине блока */
 }
 
-
-/* Стили для rectangle гридов с закругленными углами */
+/* Стили для rectangle гридов без заливки */
 .rectangle {
-    width: 96%;
+    width: 95%;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: none;
+    border: 5px solid transparent; /* Тонкий бордер */
     padding: 10px;
-    border-radius: 10px; /* Закругляем углы на 10px */
-    transition: transform 0.2s; /* Добавляем плавный переход для свойства transform */
+    border-radius: 10px;
+    transition: border-width 0.2s; /* Анимация изменения ширины бордера */
 }
 
-/* Применяем увеличение при наведении */
+/* Применяем изменение ширины бордера при наведении */
 .rectangle:hover {
-    transform: scale(1.05); /* Увеличиваем блок на 5% при наведении */
+    border-width: 10px; /* Увеличиваем ширину бордера при наведении */
 }
-
 
 /* Стили для иконки внутри rectangle грида */
 .rectangle .icon {
@@ -57,14 +66,36 @@ body {
 }
 
 /* Стили для каждого прямоугольника грида */
-.blue-border {
-    background-color: #84e2b2; /* Задаем фоновый цвет */
+.blue-border, .green-border, .black-border{
+    border-color: white; /* Цвет бордера для первого грида */
 }
 
-.green-border {
-    background-color: #07aba4;
+/* Применяем изменение цвета бордера при наведении */
+.blue-border:hover {
+    border-color: #aafcd3; /* Цвет бордера при наведении для первого блока */
 }
 
-.black-border {
-    background-color: #000086;
+.green-border:hover {
+    border-color: #07aba4; /* Цвет бордера при наведении для второго блока */
+}
+
+.black-border:hover {
+    border-color: #000086; /* Цвет бордера при наведении для третьего блока */
+}
+
+/* Медиа-запросы для различных экранов */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Уменьшим минимальную ширину колонок */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .header-logo img {
+        width: 100%; /* Лого занимает всю доступную ширину при маленьких экранах */
+    }
+
+    .question {
+        margin-top: 10px; /* Уменьшаем верхний отступ для заголовка */
+    }
 }
