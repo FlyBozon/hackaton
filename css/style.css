@@ -30,7 +30,7 @@ body {
     font-size: 45px;
     color: white;
     margin-top: 13%;
-
+    text-align: center;
 }
 
 /* Стили для сетки с классами "grid-container" и "grid-creator", "grid-collaborator", "grid-viewer" */
