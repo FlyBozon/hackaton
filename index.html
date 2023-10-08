@@ -16,9 +16,11 @@
         </nav>
     </header>
     <section class="invit section bd-container" id="invit">
-
+        <h2 class="section-title" >
+            Sign in as:
+        </h2>
         <div class="invit__container bd-grid" >
-            <div class="invit__content" onclick="window.location.href='contributor.html';">
+            <div class="invit__content" id="creator" onclick="window.location.href='contributor.html';">
                 <img
                         src="assets/creator.png"
                         alt=""
@@ -26,60 +28,24 @@
                 <h2 class="invit__title">Project creator</h2>
                 <span class="invit__desc">Person, who is running a project and looking for new team members</span>
             </div>
-            <div class="invit__content" onclick="window.location.href='contributor.html';">
+            <div class="invit__content" id="contributor" onclick="window.location.href='contributor.html';">
                 <img
-                        src="assets/creator.png"
+                        src="assets/contri.png"
                         alt=""
                         class="invit__img" />
-                <h2 class="invit__title">Project creator</h2>
-                <span class="invit__desc">Person, who is running a project and looking for new team members</span>
+                <h2 class="invit__title">Contributor</h2>
+                <span class="invit__desc">Person, who is looking for profitable proposition from project creators</span>
             </div>
-            <div class="invit__content" onclick="window.location.href='contributor.html';">
+            <div class="invit__content" id="viewer" onclick="window.location.href='contributor.html';">
                 <img
-                        src="assets/creator.png"
+                        src="assets/viewer.png"
                         alt=""
                         class="invit__img" />
-                <h2 class="invit__title">Project creator</h2>
-                <span class="invit__desc">Person, who is running a project and looking for new team members</span>
+                <h2 class="invit__title">Viewer</h2>
+                <span class="invit__desc">Person, who is visiting website as a guest</span>
             </div>
 
 
-        </div>
-    </section>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm grid-container">
-                    <div class="grid-creator" onclick="window.location.href='contributor.html';">
-                        <div class="rectangle blue-border">
-                            <div class="icon">
-                                <img src="assets/creator.png" width="100" class="invert-image">
-                                <div>Project creator</div>
-                                </div>
-                            <div class="text">Person, who is running a project and looking for new team members</div>
-                        </div>
-                    </div>
-                    <div class="grid-collaborator">
-                        <div class="rectangle green-border">
-                            <div class="icon">
-                                <img src="assets/contri.png" width="100" class="invert-image">
-                                <div>Contributor</div>
-                            </div>
-                            <div class="text" >Person, who is looking for profitable proposition from project creators</div>
-                        </div>
-                    </div>
-                    <div class="grid-viewer">
-                        <div class="rectangle black-border">
-                            <div class="icon">
-                                <img src="assets/viewer.png" width="100" class="invert-image" >
-                                <div>Viewer</div></div>
-                            <div class="text">Person, who is visiting website as a guest
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 </main>

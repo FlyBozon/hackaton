@@ -38,18 +38,20 @@ body {
 }
 
 .nav__log_in:hover {
-    color: green;
+    color: #07aba4;
 }
 
 /*========== INVIT ==========*/
-
-.invit__container {
-    display: flex; /* Используем flex-контейнер для выравнивания в одной линии */
-    justify-content: space-between; /* Распределяем элементы равномерно по ширине контейнера */
-    margin-top: 10rem;
-    padding-bottom: 5rem;
+.invit .section-title {
+    margin-top: 10rem; /* Измените это значение в соответствии с вашими потребностями */
 }
+.invit__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
 
+}
 .invit__content {
     position: relative;
     display: grid;
@@ -60,82 +62,30 @@ body {
     flex: 1; /* Равномерное распределение пространства между блоками */
     max-width: calc(31% - 1rem); /* Устанавливаем максимальную ширину блока (1/3 ширины контейнера с отступами) */
 }
-
 .invit__img {
     width: 110px;
     justify-self: center;
     margin-bottom: 0.25rem;
     filter: invert(100%);
 }
-
 .invit__title,
 .invit__desc {
     text-align: center;
 }
 
-/* Стили для заголовка "Who are you?" */
-.question {
-    font-size: 45px;
-    color: white;
-    margin-top: 13%;
+#creator:hover{
+    border-width: 10px;
+    border-color: #aafcd3;
+}
+#contributor:hover{
+    border-width: 10px;
+    border-color: #07aba4;
+}
+#viewer:hover{
+    border-width: 10px;
+    border-color: #000086;
 }
 
-/* Стили для сетки с классами "grid-container" и "grid-creator", "grid-collaborator", "grid-viewer" */
-.grid-container {
-    display: flex; /* Use flex container */
-    justify-content: center; /* Center items horizontally */
-    gap: 20px;
-    box-sizing: border-box; /* Учтем padding в ширине блока */
-}
-
-/* Стили для rectangle гридов без заливки */
-.rectangle {
-    flex: 1; /* Distribute available space equally among items */
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    border: 5px solid transparent; /* Тонкий бордер */
-    padding: 10px;
-    border-radius: 10px;
-    transition: border-width 0.2s; /* Анимация изменения ширины бордера */
-}
-
-/* Применяем изменение ширины бордера при наведении */
-.rectangle:hover {
-    border-width: 10px; /* Увеличиваем ширину бордера при наведении */
-}
-
-/* Стили для иконки внутри rectangle грида */
-.rectangle .icon {
-    font-size: 36px;
-    color: white;
-}
-
-/* Стили для текста внутри прямоугольника грида */
-.rectangle .text {
-    font-size: 18px;
-    color: white;
-}
-
-/* Стили для каждого прямоугольника грида */
-.blue-border, .green-border, .black-border{
-    border-color: white; /* Цвет бордера для первого грида */
-}
-
-/* Применяем изменение цвета бордера при наведении */
-.blue-border:hover {
-    border-color: #aafcd3; /* Цвет бордера при наведении для первого блока */
-}
-
-.green-border:hover {
-    border-color: #07aba4; /* Цвет бордера при наведении для второго блока */
-}
-
-.black-border:hover {
-    border-color: #000086; /* Цвет бордера при наведении для третьего блока */
-}
-/* Медиа-запросы для различных экранов */
 @media screen and (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr; /* Гриды будут один под другим */
