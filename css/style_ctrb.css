@@ -7,13 +7,15 @@ h1 {
     margin: 0;
     padding: 0;
     color: #ffffff;
+    text-align: left;
     font-family: 'Consolas', monospace;
 }
 
 @font-face {
     font-family: 'Consolas';
-    src: url('consolas.woff2') format('woff2'),
-         url('consolas.woff') format('woff');  
+    src: url('consolas.woff2') format('woff2'), /* Modern Browsers */
+         url('consolas.woff') format('woff');   /* Older Browsers */
+    /* You may need to include additional formats for broader browser support */
 }
 
 body {
@@ -27,7 +29,6 @@ header {
     background-color: #333;
     color: white;
     padding: 10px;
-    text-align: center;
 }
 
 main {
@@ -59,18 +60,18 @@ main {
     border: 1px solid #ffffff;
     border-radius: 5px;
     display: flex;
-    align-items: center; 
+    align-items: center; /* Center user photo and name vertically */
 }
 
 .post img {
-    width: 100%;  
-    height: auto; 
+    width: 100%;  /*User photo takes up 20% of the post */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10%;
     margin-right: 10px;
 }
 
 .post-header {
-    flex-basis: 15%; 
+    flex-basis: 15%; /* User photo and name take up 20% of the post */
     display: flex;
     flex-direction: column;
     align-items: center;
