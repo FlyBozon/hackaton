@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>findProject</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<main >
+    <header class="l-header" id="header">
+        <nav class="bd-container">
+            <a href="#" class="nav__logo"><img src="assets/logo.png" alt="Logo" width="300"></a>
+            <a href="#" class="nav__log_in">My account</a>
+        </nav>
+    </header>
+    <section class="invit section bd-container" id="invit">
+        <h2 class="section-title" >
+            Sign up as:
+        </h2>
+        <div class="invit__container bd-grid" >
+            <div class="invit__content" id="creator" onclick="window.location.href='creator_page.html';">
+                <img
+                        src="assets/creator.png"
+                        alt=""
+                        class="invit__img" />
+                <h2 class="invit__title">Project creator</h2>
+                <span class="invit__desc">Person, who is running a project and looking for new team members</span>
+            </div>
+            <div class="invit__content" id="contributor" onclick="window.location.href='contributor.html';">
+                <img
+                        src="assets/contri.png"
+                        alt=""
+                        class="invit__img" />
+                <h2 class="invit__title">Contributor</h2>
+                <span class="invit__desc">Person, who is looking for profitable proposition from project creators</span>
+            </div>
+            <div class="invit__content" id="viewer" onclick="window.location.href='viewer.html';">
+                <img
+                        src="assets/viewer.png"
+                        alt=""
+                        class="invit__img" />
+                <h2 class="invit__title">Viewer</h2>
+                <span class="invit__desc">Person, who is visiting platform as a guest and holds limited permissions</span>
+            </div>
+
+
+        </div>
+    </section>
+</main>
+</body>
+</html>

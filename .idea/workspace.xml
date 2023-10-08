@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78823d91-b23f-45be-8373-c449cabc072f" name="Changes" comment="final" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WRSQfA05THPEOPlxRLW6L7Ietf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/hackaton/web_page/contributor.html",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78823d91-b23f-45be-8373-c449cabc072f" name="Changes" comment="" />
+      <created>1696693884177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696693884177</updated>
+      <workItem from="1696693885884" duration="44289000" />
+    </task>
+    <task id="LOCAL-00001" summary="скачала">
+      <created>1696694208469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696694208469</updated>
+    </task>
+    <task id="LOCAL-00002" summary="скачала">
+      <created>1696694239694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696694239694</updated>
+    </task>
+    <task id="LOCAL-00003" summary="скачала">
+      <created>1696694290226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696694290226</updated>
+    </task>
+    <task id="LOCAL-00004" summary="скачала">
+      <created>1696694352356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696694352356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="скачала">
+      <created>1696694927476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696694927476</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add index and css">
+      <created>1696695921890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696695921890</updated>
+    </task>
+    <task id="LOCAL-00007" summary="главная страница">
+      <created>1696705518929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696705518929</updated>
+    </task>
+    <task id="LOCAL-00008" summary="главная страница">
+      <created>1696710670787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696710670787</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ala finala">
+      <created>1696713528766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696713528766</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1696713548952</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696713548952</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change css">
+      <created>1696716750981</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696716750981</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change css">
+      <created>1696716759128</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696716759128</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change css">
+      <created>1696717081868</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696717081868</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change index">
+      <created>1696743412152</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696743412152</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change index">
+      <created>1696744949979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696744949979</updated>
+    </task>
+    <task id="LOCAL-00016" summary="final main">
+      <created>1696746363955</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696746363955</updated>
+    </task>
+    <task id="LOCAL-00017" summary="final main">
+      <created>1696746379305</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696746379305</updated>
+    </task>
+    <task id="LOCAL-00018" summary="final main">
+      <created>1696747028702</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696747028702</updated>
+    </task>
+    <task id="LOCAL-00019" summary="contributor">
+      <created>1696747752903</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696747752903</updated>
+    </task>
+    <task id="LOCAL-00020" summary="button">
+      <created>1696751140325</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696751140325</updated>
+    </task>
+    <task id="LOCAL-00021" summary="button">
+      <created>1696752088814</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696752088814</updated>
+    </task>
+    <task id="LOCAL-00022" summary="button">
+      <created>1696752169759</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696752169759</updated>
+    </task>
+    <task id="LOCAL-00023" summary="button">
+      <created>1696754171823</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696754171823</updated>
+    </task>
+    <task id="LOCAL-00024" summary="creator">
+      <created>1696760380272</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696760380272</updated>
+    </task>
+    <task id="LOCAL-00025" summary="final">
+      <created>1696762682248</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696762682248</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="змінила ім'я файлу" />
+    <MESSAGE value="скачала" />
+    <MESSAGE value="add index and css" />
+    <MESSAGE value="главная страница" />
+    <MESSAGE value="ala finala" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="change css" />
+    <MESSAGE value="change index" />
+    <MESSAGE value="final main" />
+    <MESSAGE value="contributor" />
+    <MESSAGE value="button" />
+    <MESSAGE value="creator" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
+</project>
