@@ -23,18 +23,15 @@ body {
     color: #fff;
     text-align: center;
     /* padding: 20px; */
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #2b2b2b;
+    background-color: #333;
     color: white;
     padding: 10px;
-    border-radius: 10px;
 }
-li{
-    color: #fff;
-    text-decoration: none;
-}
+
 main {
     display: flex;
     flex-wrap: wrap;
