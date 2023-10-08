@@ -8,13 +8,7 @@ h1 {
     padding: 0;
     color: #ffffff;
     text-align: left;
-    font-family: 'Consolas', monospace;
-}
-
-@font-face {
-    font-family: 'Consolas';
-    src: url('consolas.woff2') format('woff2'), /* Modern Browsers */
-         url('consolas.woff') format('woff');   /* Older Browsers */
+    font-family: Consolas, monospace;
 }
 
 body {
@@ -104,41 +98,24 @@ main {
     color: #07aba4;
 } 
 
-.chat {
+.box {
     flex-basis: 25%;
     background-color: #1a1a1a;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
-.chat-message {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.chat-message img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-/* .navbar {
-    overflow: hidden;
-    top: 5px;
-    display: inline;
-  }
-
-.navbar a{
-    float: right;
-    font-size: 16px;
-    color: white;
+search {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
+    margin-bottom: 50px;
+}
+#searchbox {
+    width: 80%;
+    max-width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    background: #333333;
+}
 
 header {
     background-color: #333;
