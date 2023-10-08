@@ -56,7 +56,7 @@ main {
 }
 
 .post img {
-    width: 20%;  /*User photo takes up 20% of the post */
+    width: 40%;  /*User photo takes up 20% of the post */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%;
     margin-right: 10px;
