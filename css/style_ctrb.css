@@ -15,7 +15,6 @@ h1 {
     font-family: 'Consolas';
     src: url('consolas.woff2') format('woff2'), /* Modern Browsers */
          url('consolas.woff') format('woff');   /* Older Browsers */
-    /* You may need to include additional formats for broader browser support */
 }
 
 body {
@@ -128,6 +127,8 @@ main {
 
 /* .navbar {
     overflow: hidden;
+    top: 5px;
+    display: inline;
   }
 
 .navbar a{
@@ -167,7 +168,7 @@ h1 {
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
   
@@ -228,6 +229,21 @@ header nav ul li {
 
 header nav ul li:last-child {
     margin-right: 0;
+}
+
+.like-button {
+    background-color: #07aba4; /* Задаем зеленый цвет фона */
+    border: none;
+    border-radius: 10px;
+    color: white; /* Задаем белый цвет текста (сердечка) */
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    margin-top: 20%;
 }
 
 @media screen and (max-width: 768px) {

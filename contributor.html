@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style_ctrb.css">
     <title>Social Media Page</title>
+
 </head>
 <body>
     <header>
         <div class="header-content">
-        <h1>.findProject()</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Chat</a></li>
-            </ul>
-        </nav>
+            <h1>.findProject()</h1>
+            <div class="navbar">
+                <a href="contributor_account.html"><i>Profile</i></a>
+                <a href="#"><i>Chat</i></a>
+                <a href="index.html"><i>Log out</i></a>
+            </div>
         </div>
     </header>
     
@@ -39,6 +38,7 @@
                   <p>This ecological research project focuses on the impact of climate change on the fragile Arctic tundra ecosystems. 
                     By studying biodiversity shifts, permafrost degradation, and adaptive strategies of flora and fauna, scientists aim to elucidate the resilience of these ecosystems in the face of rapid environmental changes.</p>
                 </div>
+                <button class="like-button">&#x2665;</button>
             </div>
             <div class="post">
                 <div class="post-header">
@@ -56,6 +56,7 @@
                 <p>This scientific investigation delves into the intricate relationship between neuroinflammation and Alzheimer's disease. 
                     Through a multidisciplinary approach, researchers will explore the underlying mechanisms, identify potential biomarkers, and investigate therapeutic targets to advance our understanding and treatment of this devastating neurodegenerative condition.</p>
                 </div>
+                <button class="like-button">&#x2665;</button>
             </div>
             <div class="post">
                 <div class="post-header">
@@ -72,18 +73,21 @@
                 </div>
                 <p>This project explores the intricate connections between wildlife, ecosystems, and zoonotic diseases. Researchers will investigate disease transmission dynamics in wildlife populations and develop strategies for conserving biodiversity while mitigating the risk of disease spillover to humans.</p>
                 </div>
+                <button class="like-button">&#x2665;</button>
             </div>
         </section>
         <aside class="chat">     
             <div class="chat-icon">
-                <img src="assets/chat_icon.png" alt="Chat">
+                <img src="assets/chat_icon.png" alt="Chat" >
             </div>  
+            <!-- Sample chat messages -->
             <div class="chat-message">
-                <img src="assets/user1.jpg" alt="User 1">
+                <img src="assets/user.png" alt="User 1" class="invert_img">
                 <p>Hello, how are you?</p>
             </div>
+
             <div class="chat-message">
-                <img src="assets/user2.jpg" alt="User 2">
+                <img src="assets/user.png" alt="User 2" class="invert_img">
                 <p>I'm good, thanks!</p>
             </div>
         </aside>
