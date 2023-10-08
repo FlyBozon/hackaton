@@ -12,16 +12,15 @@ h1 {
 
 @font-face {
     font-family: 'Consolas';
-    src: url('consolas.woff2') format('woff2'), /* Modern Browsers */
-         url('consolas.woff') format('woff');   /* Older Browsers */
-    /* You may need to include additional formats for broader browser support */
+    src: url('consolas.woff2') format('woff2'),
+         url('consolas.woff') format('woff');  
 }
 
 body {
     background-color: #0f0f0f;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 header {
@@ -46,24 +45,32 @@ main {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.feed-v {
+    /* flex-basis: 70%; */
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
 .post {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #84e2b2;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     display: flex;
-    align-items: center; /* Center user photo and name vertically */
+    align-items: center; 
 }
 
 .post img {
-    width: 40%;  /*User photo takes up 20% of the post */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%;
+    width: 100%;  
+    height: auto; 
+    border-radius: 10%;
     margin-right: 10px;
 }
 
 .post-header {
-    flex-basis: 15%; /* User photo and name take up 20% of the post */
+    flex-basis: 15%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +83,7 @@ main {
 
 .post h2 {
     margin-top: 0;
-    text-align: center; /* Center user name text */
+    text-align: center;
 }
 
 .post-content {
@@ -117,27 +124,78 @@ main {
     margin-right: 10px;
 }
 
-footer {
-    background-color: #1a1a1a;
+.navbar {
+    overflow: hidden;
+  }
+
+.navbar a{
+    float: right;
+    font-size: 16px;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #07aba4;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-footer nav ul {
+header nav ul {
     list-style: none;
 }
 
-footer nav ul li {
+header nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
-footer nav ul li:last-child {
+header nav ul li:last-child {
     margin-right: 0;
 }
 
-/* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
     main {
         flex-direction: column;
@@ -148,5 +206,3 @@ footer nav ul li:last-child {
         margin: 0;
     }
 }
-
-/* Стили для body */
