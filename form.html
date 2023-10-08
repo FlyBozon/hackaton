@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Project</title>
+    <link rel="stylesheet" href="css/style_form.css"> <!-- You can style the form using CSS -->
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>.findProject()</h1>
+            <div class="navbar">
+                <a href="creator_page.html"><i>Back</i></a>
+            </div>
+        </div>
+    </header>
+    <h2>Add a New Project</h2>
+    <form action="process_form.php" method="POST">
+        <label for="topic">Project Topic:</label>
+        <input type="text" id="topic" name="topic" required>
+
+        <label for="tags">Tags (comma-separated):</label>
+        <input type="text" id="tags" name="tags" required>
+
+        <label for="description">Project Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+        <h4>What person are you looking for?</h4>
+        <label for="skills">Skills Needed (comma-separated):</label>
+        <input type="text" id="skills" name="skills" required>
+
+        <label for="background">Background Required:</label>
+        <input type="text" id="background" name="background" required>
+
+        <label for="location">Localization:</label>
+        <input type="text" id="location" name="location" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
