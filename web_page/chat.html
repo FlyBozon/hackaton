@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style_ctrb.css">
+<style>
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container .left {
+  text-align: left;
+}
+.container {
+    border: 2px solid #a8a8a8;
+    background-color: #808080;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container .right {
+    text-align: left;
+  }
+
+.darker {
+  border-color: #7c7c7c;
+  background-color: #646464;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+  filter: invert(1);
+  flex-basis: 25%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+  filter: invert(1);
+  flex-basis: 25%;
+}
+
+.time-right {
+  float: right;
+  color: #f3f3f3;
+}
+
+.time-left {
+  float: left;
+  color: #f3f3f3;
+}
+
+.chat-input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.send-button {
+  width: 18%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.chat {
+    flex-basis: 30%;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: #333;
+  }
+  
+  .send-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #07aba4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .chat {
+    flex-basis: 30%; 
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: #333;
+  }
+
+.chat-icon {
+    filter: invert(1);
+    flex-basis: 25%;
+}
+  .send-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #07aba4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>.findProject()</h1>
+            <div class="navbar">
+                <a href="contributor.html">Explore</a>
+                <a href="profileCtrb.html">My profile</a>
+                <a href="index.html"><i>Log out</i></a>
+            </div>
+        </div>
+    </header>
+<h2>Chat Messages</h2>
+
+<div class="container">
+  <img src="assets/user.png" alt="Avatar" style="width:100%;">
+  <p class="left">Hello. I'm doing a project, maybe you want to colaborate?</p>
+  <span class="time-right">11:00</span>
+</div>
+
+<div class="container darker">
+  <img src="assets/user.png" alt="Avatar" class="right" style="width:100%;">
+  <p class="right">Hey! I'm fine. Thanks for asking! Of cource I'm interested!</p>
+  <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+  <img src="assets/user.png" alt="Avatar" style="width:100%;">
+  <p class="left">Sweet! What about short call today?</p>
+  <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker">
+  <img src="assets/user.png" alt="Avatar" class="right" style="width:100%;">
+  <p class="right">Okay, great!</p>
+  <span class="time-left">11:05</span>
+</div>
+
+<!-- Chat input and send button -->
+<div class="container">
+  <input type="text" class="chat-input" id="chatInput" placeholder="Type your message here">
+  <button class="send-button" onclick="sendMessage()">Send</button>
+</div>
+
+<script>
+function sendMessage() {
+  var chatInput = document.getElementById("chatInput");
+  var message = chatInput.value;
+  if (message.trim() !== "") {
+    var newChatContainer = document.createElement("div");
+    newChatContainer.className = "container darker";
+    newChatContainer.innerHTML = `
+      <img src="assets/user.png" alt="Avatar" class="right" style="width:100%;">
+      <p>${message}</p>
+      <span class="time-left">${getCurrentTime()}</span>
+    `;
+    document.body.insertBefore(newChatContainer, document.getElementsByClassName("container")[0]);
+    chatInput.value = "";
+  }
+}
+function getCurrentTime() {
+  var now = new Date();
+  var hours = now.getHours().toString().padStart(2, "0");
+  var minutes = now.getMinutes().toString().padStart(2, "0");
+  return hours + ":" + minutes;
+}
+</script>
+</body>
+</html>
