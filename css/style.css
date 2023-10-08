@@ -86,18 +86,26 @@ body {
     border-color: #000086;
 }
 
+/* Добавьте этот медиа-запрос для уменьшения экрана */
 @media screen and (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr; /* Гриды будут один под другим */
-        margin-left: 10px;
-        margin-right: 10px;
+    .invit__container {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .header-logo img {
-        width: 100%; /* Лого занимает всю доступную ширину при маленьких экранах */
+    .invit__content {
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+    .l-header {
+        width: 100%;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+    .nav__log_in {
+        padding-top: 15%;
+        padding-right: 5%;
     }
 
-    .question {
-        margin-top: 10px; /* Уменьшаем верхний отступ для заголовка */
-    }
 }
